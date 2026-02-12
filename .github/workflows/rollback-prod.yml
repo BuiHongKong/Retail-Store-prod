@@ -1,5 +1,4 @@
-# Copy vào prod repo thành .github/workflows/rollback-prod.yml (bỏ .example)
-# Chạy ở repo prod: Manual rollback về prod-previous (1 version back).
+# Manual rollback về prod-previous (1 version back).
 name: Rollback Prod
 on:
   workflow_dispatch:
